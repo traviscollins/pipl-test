@@ -10,8 +10,8 @@ import datetime
 # Please change the name and DOB range below to something useful for your tests. 
 
 fields = [Name(first=u'Clark',  last=u'Kent'),
-          DOB(date_range=DateRange(datetime.date(1970,1,1),datetime.date(1980,1,1)))]
-request = SearchAPIRequest(person=Person(fields=fields), api_key='YOURS_HERE')
+          DOB(date_range=DateRange(datetime.date(1975,1,1),datetime.date(1980,1,1)))]
+request = SearchAPIRequest(person=Person(fields=fields), api_key='7wnf3adj2jgarhpyuwidb05a')
 
 try:
     response = request.send()
