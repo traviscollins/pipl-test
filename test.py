@@ -11,7 +11,7 @@ import datetime
 
 fields = [Name(first=u'Clark',  last=u'Kent'),
           DOB(date_range=DateRange(datetime.date(1975,1,1),datetime.date(1980,1,1)))]
-request = SearchAPIRequest(person=Person(fields=fields), api_key='7wnf3adj2jgarhpyuwidb05a')
+request = SearchAPIRequest(person=Person(fields=fields), api_key='YOUR_KEY')
 
 try:
     response = request.send()
